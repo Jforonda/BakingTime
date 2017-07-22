@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This Fragment is used in the activity_recipe_detail.xml layout (TABLET)-->
+<!--Fragment is placed inside of id/recipe_step_video_container-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_recipe_detail_ingredients_tablet"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:background="@color/secondaryBackground">
+
+        <TextView
+            android:id="@+id/text_view_recipe_detail_ingredients_title_tablet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingredients_title"
+            android:textSize="30sp"
+            android:textColor="@color/colorBlack" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_recipe_detail_ingredients_list_tablet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_recipe_detail_steps_tablet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+</LinearLayout>

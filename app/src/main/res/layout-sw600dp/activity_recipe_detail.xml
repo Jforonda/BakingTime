@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".RecipeDetailActivity">
+
+
+    <!--Tablet Layout - Left Side-->
+    <!--List of Ingredients and Steps-->
+
+    <!--Contains fragment_recipe_detail-->
+    <FrameLayout
+        android:id="@+id/recipe_detail_container"
+        android:layout_width="400dp"
+        android:layout_height="match_parent" />
+
+
+    <!--A small divider-->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray" />
+
+
+    <!--Tablet Layout - Right Side-->
+    <!--Step Video and details-->
+
+    <!--Contains fragment_recipe_step_detail.xml-->
+    <FrameLayout
+        android:id="@+id/recipe_step_video_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

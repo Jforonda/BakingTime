@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+    <string name="recipe_list_load_error">Error loading recipe list!</string>
+
+    <string name="no_recipes">There are no recipes available. Check back again later!</string>
+    <string name="error_message">There was a error loading recipes.</string>
+
+    <string name="ingredients_title">Ingredients</string>
+
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="restart">Restart</string>
+
+    <string name="previous_step">Previous Step</string>
+    <string name="next_step">Next Step</string>
+
+    <string name="previous_recipe">&lt;</string>
+    <string name="next_recipe">&gt;</string>
+
+    <string name="next">Next</string>
+
+    <string name="add_widget">Add widget</string>
+</resources>
